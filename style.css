@@ -342,12 +342,20 @@ input ,textarea{
   to { border-right-color: transparent; }
 }
 
+.latest-con{
+width: 90%;
+font-size: 12px !important;
+}
+
 @media screen and (max-width: 568px) {
   .navbar-brand {
     font-weight: 500 !important;
     font-size: 12px !important;
 }
 
+.hid-img{
+display: none !important;
+}
 
 
 .dot {
@@ -381,12 +389,22 @@ h2{
       font-weight: 700 !important;
     font-size: 18px !important;
 }
+h1{
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+.heading6{
+     font-weight: 500 !important;
+    font-size: 18px !important;
+}
 .para-content{
     width: 90%;
     font-size: 12px !important;
     text-align: justify;
 }
-
+.latest-con{
+        width: 90%;
+}
 
 .btn-gradient {
     padding: 10px 20px;
@@ -432,5 +450,73 @@ h2{
     height: 30px !important;
     width: 30px !important;
 }
+.slider-wrapper{
+    padding: 20px !important;
+}
 
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #8E2DE2, #C83DD8, #F27121) !important;
+  color: #fff !important;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+ 
+}
+
+.card {
+    max-width: 250px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #cfcece !important;
+}
+.title{
+    font-size: 12px !important;
+}
+.desc{
+    font-size: 10px !important;
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff !important;
+    font-size: 0.675rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    align-items: center;
+    gap: 0.25rem;
+    background: linear-gradient(90deg, #8E2DE2, #C83DD8, #F27121) !important;
+    padding: 8px 15px;
+    border-radius: 4px;
+    letter-spacing: 1px !important;
+}
+
+.action span {
+    transition: .3s ease;
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
+.online-link{
+    padding: 20px !important;
+}
+.cont-title{
+    font-size: 14px !important;
+}
+.icon a{
+    font-size: 14px !important;
+}
+.icon i{
+    font-size: 14px !important;
+}
 }
