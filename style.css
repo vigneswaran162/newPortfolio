@@ -5,6 +5,9 @@
     color: #37353E !important;
     font-family: "Montserrat", sans-serif;
 }
+.main-content{
+    min-height: 90vh;
+}
 
 .navbar-brand {
     font-weight: 500 !important;
@@ -367,6 +370,14 @@ h6 {
     font-weight: 600 !important;
     font-size: 15px !important;
 }
+h5{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+h2{
+      font-weight: 700 !important;
+    font-size: 18px !important;
+}
 .para-content{
     width: 90%;
     font-size: 12px !important;
@@ -398,6 +409,25 @@ h6 {
     text-decoration: none !important;
     color: #5c5c5c !important;
     font-size: 12px !important ;
+}
+.main-content{
+    min-height: auto !important;
+    padding: 30px 10px !important;
+}
+.about-content{
+    font-size: 12px !important;
+    padding: 20px !important;
+}
+.img-box{
+    padding: 20px !important;
+    border-radius: 50px !important;
+}
+.gird img {
+    padding: 5px !important;
+    border: 1px solid #c1c1c1 !important;
+    border-radius: 5px !important;
+    height: 30px !important;
+    width: 30px !important;
 }
 
 }
