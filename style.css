@@ -347,6 +347,9 @@ input ,textarea{
     font-weight: 500 !important;
     font-size: 12px !important;
 }
+
+
+
 .dot {
     display: inline-block;
     /* IMPORTANT */
@@ -428,9 +431,6 @@ h2{
     border-radius: 5px !important;
     height: 30px !important;
     width: 30px !important;
-}
-.small-image{
-    display: none !important;
 }
 
 }
